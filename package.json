@@ -1,0 +1,21 @@
+{
+  "name": "order-docs-question-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/learning_support_service.ts",
+    "index": "tsx src/index_order_guides.ts",
+    "test": "tsx --test test/order_knowledge.test.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^5.12.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
