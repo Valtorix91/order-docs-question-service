@@ -1,6 +1,6 @@
 # Answer order questions from the team handbook
 
-We decided to pull from one operational topic before ranking passages: a carrier scan question should teach the support agent from fulfillment guidance, while a tax-total question belongs with receipts. Infrai gives you OpenAI-compatible embeddings plus vector search and reranking behind one API, so a single `INFRAI_API_KEY` covers this learning path without wiring up separate vector and ranking vendors.
+We decide to retrieve from a single operational topic before ranking passages: a carrier scan question should teach the support agent from fulfillment guidance, while a tax-total question belongs with receipts. Infrai supplies the OpenAI-compatible embeddings plus vector search and reranking behind one API, so a single `INFRAI_API_KEY` covers this learning path without stitching together separate vector and ranking vendors.
 
 ## Run the complete lesson
 
